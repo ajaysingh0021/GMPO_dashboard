@@ -1,0 +1,126 @@
++++ 09:07:32 R1(default)-a exec +++
+show controllers Odu-Group-Te 1 protection-detail
+
+
+
+Sun Feb 19 09:07:31.360 UTC
+
+
+
+
+
+ODU  Group Information
+
+
+--------------------------------------------------------------
+
+
+LOCAL
+
+
+		Request State			: No Request State
+
+
+		Request signal 			: 0
+
+
+		Bridge signal 			: 1
+
+
+		Bridge Status 			: 1+1
+
+
+REMOTE
+
+
+		Request State			: No Request State
+
+
+		Request signal 			: 0
+
+
+		Bridge signal 			: 1
+
+
+		Bridge Status 			: 1+1
+
+
+WORKING
+
+
+		Controller Name 		: ODU20_3_0_0_12
+
+
+		ODU STATE 			: Active
+
+
+		Local Failure 			: State Ok
+
+
+		Remote Failure 			: Not Applicable
+
+
+		WTR Left 			: 0 ms
+
+
+
+
+
+PROTECT
+
+
+		Controller Name 		: ODU20_0_0_1_12
+
+
+		ODU STATE 			: Active_tx
+
+
+		Local Failure 			: State Ok
+
+
+		Remote Failure 			: Not Applicable
+
+
+		WTR Left 			: 0 ms
+
+
+
+
+
+RESTORE
+
+
+		Controller Name 		: 
+
+
+
+
+
+Client
+
+
+		Controller Name 		: ODU20_0_0_8_4
+
+
+		ODU STATE 			: Active
+
+
+
+
+
+
+
+
+Wait to restore 				: 0 ms
+
+
+Hold-off-timer  				: 0 ms
+
+
+Current State 					: No Request State
+
+
+Previous State 					: Signal Failed on Protecting
+
+
+RP/0/RP0:R1#
