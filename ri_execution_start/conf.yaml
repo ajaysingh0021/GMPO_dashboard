@@ -1,0 +1,51 @@
+default:
+  git_username : "GMPOauto"
+  git_password : "GMPOtest&12"
+  git_branchname : 'develop'
+  ssh_username : "GMPOauto"
+  GMPO_server : "GMPOtest6-lnx"
+  ssh_password : "GMPOtest&12"
+ 
+# "GMPOautotest15-lnx":
+   # start_execution : True
+   # scriptname : 'Psetup'
+
+"GMPOautotest7-w7":
+  start_execution : True
+  scriptname: 'PRI1'
+
+"GMPOautotst21-w7":
+  start_execution : True
+  scriptname: 'PRI2'
+
+"GMPOautotst12-w7":
+  start_execution : True
+  scriptname: 'PRI3'
+
+"GMPOautotst17-w7":
+  start_execution : True
+  scriptname: 'PRI4'
+
+"GMPOautotst22-w7":
+  start_execution : True
+  scriptname: 'PRI5'
+
+"garuda-w2k8":
+  start_execution : True
+  scriptname: 'PRI6'
+
+"GMPOautotst23-w7":
+  start_execution : True
+  scriptname: 'PRI7'
+
+"GMPOautotest6-w7":
+  start_execution : True
+  scriptname: 'PRI8'
+
+"GMPOautotst11-w7":
+  start_execution : True
+  scriptname: 'Psanity'
+
+"GMPO-atqa-win10":
+  start_execution : True
+  scriptname: 'Phpalm'

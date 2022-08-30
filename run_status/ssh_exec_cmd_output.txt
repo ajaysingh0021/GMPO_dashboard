@@ -1,0 +1,114 @@
+Starting ssh_exec.py with user=krijha, upwd=*****, jobfile_name=bo_rudra_ac4_ains_86, executor=krijha, verbose=yes
+Trying to SSH...host=bgl-xdm-037, username=krijha, password=*****
+Connected to host...
+Executing first command=grep ": The result of" /ws/krijha-bgl/pyATS/users/krijha/runinfo/bo_rudra_ac4_ains_86/TaskLog.__task* | cut -d":" -f8
+Stderr for cmd1::
+---------------------------------
+Stdout for cmd1::
+ subsection verify_job_input is => PASSED
+ subsection connect_devices is => PASSED
+ subsection initialize_vars is => PASSED
+ subsection connect_tgens is => PASSED
+ common setup is => PASSED
+ section test_setup is => PASSED
+ section get_rsip_to_test is => PASSED
+ section configure_ains is => PASSED
+ section verifying_ains_before_inserting_alarm is => PASSED
+ section inserting_alarm is => PASSED
+ section verifying_ains_after_inserting_alarm is => PASSED
+ section verify_inserted_alarm_presence_state is => PASSED
+ section cleanup_remove_client_payload_alarm is => PASSED
+ section verify_ains_state_post_removing_alarm is => PASSED
+ section verify_ains_state_post_ains_timer_expire is => PASSED
+ section unconfigure_ains is => PASSED
+ testcase verify_ains_for_controller_src_1 is => PASSED
+ section test_setup is => PASSED
+ section get_rsip_to_test is => PASSED
+ section configure_ains is => PASSED
+ section verifying_ains_before_inserting_alarm is => PASSED
+ section inserting_alarm is => PASSED
+ section verifying_ains_after_inserting_alarm is => PASSED
+ section verify_inserted_alarm_presence_state is => PASSED
+ section cleanup_remove_client_payload_alarm is => PASSED
+ section verify_ains_state_post_removing_alarm is => PASSED
+ section verify_ains_state_post_ains_timer_expire is => PASSED
+ section unconfigure_ains is => PASSED
+ testcase verify_ains_behavior_for_timer_max_src_1 is => PASSED
+ section test_setup is => PASSED
+ section get_rsip_to_test is => PASSED
+ section configure_ains is => PASSED
+ section verifying_ains_before_inserting_alarm is => PASSED
+ section inserting_alarm is => PASSED
+ section verifying_ains_after_inserting_alarm is => PASSED
+ section verify_inserted_alarm_presence_state is => PASSED
+ section cleanup_remove_client_payload_alarm is => PASSED
+ section verify_ains_state_post_removing_alarm is => PASSED
+ section verify_ains_state_post_ains_timer_expire is => PASSED
+ section unconfigure_ains is => PASSED
+ testcase verify_ains_behavior_for_timer_min_src_1 is => PASSED
+ section test_setup is => PASSED
+ section get_rsip_to_test is => PASSED
+ section configure_ains is => PASSED
+ section verifying_ains_before_deleting_controller is => PASSED
+ section delete_controller is => PASSED
+ section verifying_ains_after_deleting_controller is => PASSED
+ section re_create_controller is => PASSED
+ section verifying_ains_after_recreating_controller is => PASSED
+ section inserting_alarm_after_recreating is => PASSED
+ section verify_inserted_alarm_presence_state is => PASSED
+ section cleanup_remove_client_payload_alarm is => PASSED
+ section verify_ains_state_post_ains_timer_expire is => PASSED
+ section unconfigure_ains is => PASSED
+ testcase verify_ains_for_controller_delete_recreate_client_src_1 is => PASSED
+ section test_setup is => PASSED
+ section get_rsip_to_test is => PASSED
+ section configure_ains is => PASSED
+ section verifying_ains_before_process_restart is => PASSED
+ section test_do_action is => PASSED
+ section verifying_ains_post_process_restart is => PASSED
+ section inserting_alarm_after_process_restart is => PASSED
+ section verifying_ains_after_inserting_alarm is => PASSED
+ section cleanup_remove_client_payload_alarm is => PASSED
+ section verify_ains_state_post_ains_timer_expire is => PASSED
+ section test_do_action_after_timer_expired is => PASSED
+ section verify_ains_state_post_action_post_ains_timer_expire is => PASSED
+ section unconfigure_ains is => PASSED
+ section test_cleanup is => PASSED
+ testcase ains_behavior_post_process_restart_bhcardmgr_src_1 is => PASSED
+ section test_setup is => PASSED
+ section get_rsip_to_test is => PASSED
+ section configure_ains is => PASSED
+ section verifying_ains_before_process_restart is => PASSED
+ section test_do_action is => PASSED
+ section verifying_ains_post_process_restart is => PASSED
+ section inserting_alarm_after_process_restart is => PASSED
+ section verifying_ains_after_inserting_alarm is => PASSED
+ section cleanup_remove_client_payload_alarm is => PASSED
+ section verify_ains_state_post_ains_timer_expire is => PASSED
+ section test_do_action_after_timer_expired is => FAILED
+ section verify_ains_state_post_action_post_ains_timer_expire is => PASSED
+ section unconfigure_ains is => PASSED
+ section test_cleanup is => PASSED
+ testcase ains_behavior_post_process_restart_shelfmgr_src_1 is => FAILED
+ section test_setup is => PASSED
+ section get_rsip_to_test is => PASSED
+ section configure_ains is => PASSED
+ section verifying_ains_before_process_restart is => PASSED
+ section test_do_action is => PASSED
+ section verifying_ains_post_process_restart is => PASSED
+ section inserting_alarm_after_process_restart is => PASSED
+ section verifying_ains_after_inserting_alarm is => PASSED
+ section cleanup_remove_client_payload_alarm is => PASSED
+ section verify_ains_state_post_ains_timer_expire is => PASSED
+Executing the cmd2 = grep ": Starting testcase" /ws/krijha-bgl/pyATS/users/krijha/runinfo/bo_rudra_ac4_ains_86/TaskLog.__task1 | cut -d":" -f8
+Stderr for command2::
+---------------------------------
+Stdout for cmd2::
+ verify_ains_for_controller_src_1
+ verify_ains_behavior_for_timer_max_src_1
+ verify_ains_behavior_for_timer_min_src_1
+ verify_ains_for_controller_delete_recreate_client_src_1
+ ains_behavior_post_process_restart_bhcardmgr_src_1
+ ains_behavior_post_process_restart_shelfmgr_src_1
+ ains_behavior_post_process_restart_sdrinvmgr_src_1
+last_list_elem= ains_behavior_post_process_restart_sdrinvmgr_src_1
