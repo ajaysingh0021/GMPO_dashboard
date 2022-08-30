@@ -1,0 +1,99 @@
+testbed:
+    name: GMPO
+    alias: gmpo22K
+    custom:
+        owner: gmpo admin
+        Mail: gmpoemailid@GMPO.com
+devices:
+    BB09:
+        type: router
+        alias: src
+        tacacs:
+            username: root
+        connections:
+            a:
+                protocol: telnet
+                ip: 1.1.1.1
+                port: 2042
+            b:
+                protocol: telnet
+                ip: 1.1.1.1
+                port: 2043
+            alt:
+                protocol: telnet
+                ip: 1.1.1.1
+                port: 2044
+        custom:
+            virtual_ip: 5.5.5.5
+            mgmt_ip: 7.7.7.7
+            ntp_server: 10.127.60.201
+    BB10:
+        type: router
+        alias: dst
+        tacacs:
+            username: root
+        connections:
+            a:
+                protocol: telnet
+                ip: 2.2.2.2
+                port: 2032
+            b:
+                protocol: telnet
+                ip: 2.2.2.2
+                port: 2033
+            alt:
+                protocol: telnet
+                ip: 2.2.2.2
+                port: 2034
+        custom:
+            virtual_ip: 6.6.6.6
+            mgmt_ip: 8.8.8.8
+            ntp_server: 10.127.60.201
+    JDSU2:
+        type: tgen
+        alias: tgenjdsu2
+        connections:
+            a:
+                protocol: telnet
+                ip: 1.1.1.2
+        custom:
+            connector_type: SFP1
+topology:
+    BB09:
+        interfaces:
+            HundredGigE-0/1/0/1:
+                alias: src_dst_nni_1
+                link: link_1
+                type: otn-100G
+            TenGigECheck-0/1/0/2:
+                alias: src_dst_nni_2
+                link: link_2
+                type: otn-200G
+            TenGigE-0/5/0/1:
+                alias: src_tgenjdsu2_uni_dp_1
+                link: link_3
+                type: ethernet-10G
+    BB10:
+        interfaces:
+            HundredGigE-0/1/0/2:
+                alias: dst_src_nni_1
+                link: link_1
+                type: otn-100G
+            TenGigECheck-0/1/0/3:
+                alias: dst_src_nni_2
+                link: link_2
+                type: otn-200G
+            TenGigE-0/6/0/1:
+                alias: dst_tgenjdsu2_uni_dp_1
+                link: link_4
+                type: ethernet-10G
+    JDSU2:
+        interfaces:
+            TenGigE-3/1:
+                alias: tgenjdsu2_src_uni_dp_1
+                link: link_3
+                type: ethernet-10G
+            TenGigE-3/2:
+                alias: tgenjdsu2_dst_uni_dp_1
+                link: link_4
+                type: ethernet-10G

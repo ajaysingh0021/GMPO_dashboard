@@ -1,0 +1,146 @@
+testbed:
+    name: GMPO
+    alias: gmpo22K
+    custom:
+        owner: gmpo admin
+        Mail: gmpoemailid@GMPO.com
+devices:
+    BB09:
+        type: router
+        alias: src
+        tacacs:
+            username: root
+        connections:
+            a:
+                protocol: telnet
+                ip: 1.1.1.1
+                port: 2042
+            b:
+                protocol: telnet
+                ip: 1.1.1.1
+                port: 2043
+            alt:
+                protocol: telnet
+                ip: 1.1.1.1
+                port: 2044
+        custom:
+            virtual_ip: 5.5.5.5
+            ntp_server: 10.127.60.201
+    BB10:
+        type: router
+        alias: dst
+        tacacs:
+            username: root
+        connections:
+            a:
+                protocol: telnet
+                ip: 2.2.2.2
+                port: 2032
+            b:
+                protocol: telnet
+                ip: 2.2.2.2
+                port: 2033
+            alt:
+                protocol: telnet
+                ip: 2.2.2.2
+                port: 2034
+        custom:
+            virtual_ip: 6.6.6.6
+            ntp_server: 10.127.60.201
+    JDSU1:
+        type: tgen
+        alias: tgenjdsu1
+        connections:
+            a:
+                protocol: telnet
+                ip: 1.1.1.2
+        custom:
+            connector_type: SFP1
+    SPIRENT1:
+        type: tgen
+        alias: tgenspirent1
+        connections:
+            a:
+                protocol: telnet
+                ip: 2.2.2.3
+topology:
+    BB09:
+        interfaces:
+            HundredGigE-0/1/0/1:
+                alias: src_dst_nni_1
+                link: link_1
+                type: otn-100G
+            TenGigE-0/5/0/1:
+                alias: src_tgenjdsu1_uni_dp_1
+                link: link_2
+                type: ethernet-10G
+            HundredGigE-0/2/0/1/2:
+                alias: src_tgenspirent1_uni_bo_1
+                link: link_3
+                type: ethernet-100G
+            TenGigE-0/2/0/1/3:
+                alias: src_tgenspirent1_uni_bo_2
+                link: link_6
+                type: ethernet-10G
+            TenGigE-0/2/0/1/4:
+                alias: src_tgenspirent1_uni_bo_3
+                link: link_7
+                type: ethernet-10G
+    BB10:
+        interfaces:
+            HundredGigE-0/1/0/2:
+                alias: dst_src_nni_1
+                link: link_1
+                type: otn-100G
+            TenGigE-0/6/0/1:
+                alias: dst_tgenjdsu1_uni_dp_1
+                link: link_4
+                type: ethernet-10G
+            HundredGigE-0/6/0/1/2:
+                alias: dst_tgenspirent1_uni_bo_1
+                link: link_5
+                type: ethernet-100G
+            TenGigE-0/6/0/1/3:
+                alias: dst_tgenspirent1_uni_bo_2
+                link: link_8
+                type: ethernet-10G
+            TenGigE-0/6/0/1/4:
+                alias: dst_tgenspirent1_uni_bo_3
+                link: link_9
+                type: ethernet-10G
+    JDSU1:
+        interfaces:
+            TenGigE-3/1:
+                alias: tgenjdsu1_src_uni_dp_1
+                link: link_2
+                type: ethernet-10G
+            TenGigE-3/2:
+                alias: tgenjdsu1_dst_uni_dp_1
+                link: link_4
+                type: ethernet-10G
+    SPIRENT1:
+        interfaces:
+            HundredGigE-9/21:
+                alias: tgenspirent1_src_uni_bo_1
+                link: link_3
+                type: ethernet-100G
+            HundredGigE-8/21:
+                alias: tgenspirent1_dst_uni_bo_1
+                link: link_5
+                type: ethernet-100G
+            TenGigE-x/0:
+                alias: tgenspirent1_src_uni_bo_2
+                link: link_6
+                type: ethernet-10G
+            TenGigE-x/1:
+                alias: tgenspirent1_src_uni_bo_3
+                link: link_7
+                type: ethernet-10G
+            TenGigE-x/2:
+                alias: tgenspirent1_dst_uni_bo_2
+                link: link_8
+                type: ethernet-10G
+            TenGigE-x/3:
+                alias: tgenspirent1_dst_uni_bo_3
+                link: link_9
+                type: ethernet-10G
