@@ -1,0 +1,22 @@
+	local_request_state : Lockout for Protection
+	local_request_signal : 0
+	local_bridge_signal : 1
+	local_bridge_status : 1+1
+	remote_request_state : Reverse Request
+	remote_request_signal : 0
+	remote_bridge_signal : 1
+	remote_bridge_status : 1+1
+	working_odu_state : Active
+	working_local_failure : State Ok
+	working_remote_failure : Not Applicable
+	protect_odu_state : Active_tx
+	protect_local_failure : State Ok
+	protect_remote_failure : Not Applicable
+	restore_odu_state : not-set
+	restore_local_failure : not-set
+	restore_remote_failure : not-set
+	client_odu_state : Active
+	hold-off-timer : 0
+	wait_to_restore : 0
+	current_state : Lockout for Protection Request
+
