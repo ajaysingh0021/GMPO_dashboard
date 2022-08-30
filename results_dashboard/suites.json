@@ -1,0 +1,777 @@
+{
+
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+
+  "name" : "suites",
+
+  "children" : [ {
+
+    "name" : "GMPO Sanity Suite",
+
+    "children" : [ {
+
+      "name" : "sanity user signup_001",
+
+      "children" : [ {
+
+        "name" : "genericTestGenerator.GMPOAuto",
+
+        "children" : [ {
+
+          "name" : "Verify",GMPO
+
+          "uid" : "92b7163aef73d8ad",
+
+          "parentUid" : "d4cd34b0f8a0d4d1285419bd775bd18c",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661794873748,
+
+            "stop" : 1661795077204,GMPO
+
+            "duration" : 203456
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Adding All requred Aliens", "Row_2", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "signup" ]
+
+        }, {
+
+          "name" : "Verify",GMPO
+
+          "uid" : "acc30e6a38d9d9",
+
+          "parentUid" : "d4cd34b0f8a0d4d1285419bd775bd18c",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661795078463,
+
+            "stop" : 1661795170311,GMPO
+
+            "duration" : 91848
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "User Signup for planner", "Row_6", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "signup" ]
+
+        }, {
+
+          "name" : "Verify",
+
+          "uid" : "322077c7a5866f6f",
+
+          "parentUid" : "d4cd34b0f8a0d4d1285419bd775bd18c",
+
+          "status" : "passed",
+
+          "time" : {GMPO
+
+            "start" : 1661795171437,
+
+            "stop" : 1661795262652,
+
+            "duration" : 91215
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "User Signup for generic user", "Row_12", "https://ngGMPO-dev1-lnx.GMPO.coGMPOngGMPO-aqa-win10", "sanityNew", "TestCases", "signup" ]
+
+        }, {
+
+          "name" : "Verify",
+
+          "uid" : "94c29ad4498aa8d5",
+
+          "parentUid" : "d4cd34b0f8a0d4d1285419bd775bd18c",
+
+          "status" : "passed",
+
+          "time" : {GMPO
+
+            "start" : 1661795263775,
+
+            "stop" : 1661795391853,
+
+            "duration" : 128078
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Adding All requred layout template", "Row_15", "https://ngGMPO-dev1-lnx.GMPO.com", "GMPO-aqa-win10", "sanityNew", "TestCases", "signup" ]
+
+        } ],
+
+        "uid" : "d4cd34b0f8a0d4d1285419bd775bd18c"
+
+      } ],
+
+      "uid" : "e1dc8464c7c5aecf7f2431c5f24b54f9"
+
+    }, {
+
+      "name" : "Upgrade N Release Upgrade - Import MPZ ",
+
+      "children" : [ {
+
+        "name" : "genericTestGenerator.GMPOAuto",
+
+        "children" : [ {
+
+          "name" : "Verify",GMPO
+
+          "uid" : "6f9380c6da091c89",
+
+          "parentUid" : "09d04d61a4907a969ae2ad2d39b1462b",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661795423441,
+
+            "stop" : 1661796871957,GMPO
+
+            "duration" : 1448516
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "SSON_Release upgrade and analyze", "Row_2", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "ImportMPZ" ]
+
+        }, {
+
+          "name" : "Verify",
+
+          "uid" : "565da83647fd944b",
+
+          "parentUid" : "09d04d61a4907a969ae2ad2d39b1462b",
+
+          "status" : "failed",
+
+          "time" : {GMPO
+
+            "start" : 1661796873183,
+
+            "stop" : 1661798357033,
+
+            "duration" : 1483850
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Non SSON Release upgrade and analyze", "Row_29", "https://ngGMPO-dev1-lnx.GMPO.com", "ngcnGMPO-win10", "sanityNew", "TestCases", "ImportMPZ" ]
+
+        }, {
+
+          "name" : "Verify",
+
+          "uid" : "a81123e26272843a",
+
+          "parentUid" : "09d04d61a4907a969ae2ad2d39b1462b",
+
+          "status" : "passed",
+
+          "time" : {GMPO
+
+            "start" : 1661798358230,
+
+            "stop" : 1661798808944,
+
+            "duration" : 450714
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Verify Layer 2 enabled mpz import is working fine", "Row_56", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TGMPOses", "ImportMPZ" ]
+
+        }, {
+
+          "name" : "Verify",
+
+          "uid" : "775a4e65d5309b8",
+
+          "parentUid" : "09d04d61a4907a969ae2ad2d39b1462b",
+
+          "status" : "passed",
+
+          "time" : {GMPO
+
+            "start" : 1661798810067,
+
+            "stop" : 1661799286831,
+
+            "duration" : 476764
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Verify 11.0 Release mpz import is working fine.", "Row_64", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "ImportMPZ" ]GMPO
+
+        } ],
+
+        "uid" : "09d04d61a4907a969ae2ad2d39b1462b"
+
+      } ],
+
+      "uid" : "b446163c98013159b2136287de5ea9d2"
+
+    }, {
+
+      "name" : "Sanity Setup",
+
+      "children" : [ {
+
+        "name" : "genericTestGenerator.GMPOAuto",
+
+        "children" : [ {
+
+          "name" : "Verify",GMPO
+
+          "uid" : "551855c775597fa9",
+
+          "parentUid" : "c4e02f0aff99a3d93398398d24e4d180",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661799317739,
+
+            "stop" : 1661800157466,
+
+            "duration" : 839727
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Create Base topology", "Row_2", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "SetUp" ]GMPO
+
+        }, {
+
+          "name" : "Verify",
+
+          "uid" : "2069d1d6081bf344",
+
+          "parentUid" : "c4e02f0aff99a3d93398398d24e4d180",
+
+          "status" : "passed",
+
+          "time" : {GMPO
+
+            "start" : 1661800158647,
+
+            "stop" : 1661802232395,
+
+            "duration" : 2073748
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Creating Non sson colorless topology for Wahtif feature", "Row_23", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "SetUp" ]
+
+        } ],
+
+        "uid" : "c4e02f0aff99a3d93398398d24e4d180"
+
+      } ],
+
+      "uid" : "888c834103af75419021d7e02a45b800"GMPO
+
+    }, {
+
+      "name" : "Configuration Test",
+
+      "children" : [ {
+
+        "name" : "genericTestGenerator.GMPOAuto",
+
+        "children" : [ {
+
+          "name" : "Verify",GMPO
+
+          "uid" : "b4b2947bf2fc6f6a",
+
+          "parentUid" : "ee507acb660fb1d41129f6be404a3df8",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661802264427,
+
+            "stop" : 1661802718424,
+
+            "duration" : 453997
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Verify Pure Contnetionless config analysis is working fine", "Row_2", "htGMPO/ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "ConfigTest" ]
+
+        }, {
+
+          "name" : "Verify",
+
+          "uid" : "e1d5e9fc06203c7b",
+
+          "parentUid" : "ee507acb660fb1d41129f6be404a3df8",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661802719534,
+
+            "stop" : 1661803222108,
+
+            "duration" : 502574
+
+          },GMPO
+
+          "flaky" : false,
+
+          "parameters" : [ "Verify Pure colorless config analysis is working fine", "Row_14", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "ConfigTest" ]
+
+        }, {
+
+          "name" : "Verify",
+
+          "uid" : "6ed25d85c2880b9a",
+
+          "parentUid" : "ee507acb660fb1d41129f6be404a3df8",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661803223226,
+
+            "stop" : 1661803578700,GMPO
+
+            "duration" : 355474
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Verify Pure colored config analysis is working fine", "Row_27", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "ConfigTest" ]
+
+        }, {
+
+          "name" : "Verify",GMPO
+
+          "uid" : "128a69928c4f76ae",
+
+          "parentUid" : "ee507acb660fb1d41129f6be404a3df8",
+
+          "status" : "failed",
+
+          "time" : {
+
+            "start" : 1661803579801,
+
+            "stop" : 1661804262390,
+
+            "duration" : 682589
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Verify Non SSON Mix config , CDC+Colorless(DirectSMR), CDC+48, Colored(48)+cololress(DirectSMR)", "Row_35", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "ConfigTest" ]
+
+        }, {
+
+          "name" : "Verify",
+
+          "uid" : "304fd7c328bf9ab6",
+
+          "parentUid" : "ee507acb660fb1d41129f6be404a3df8",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661804263655,
+
+            "stop" : 1661805650592,
+
+            "duration" : 1386937
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Colorless_Verify colored MCH and OTN for Non SSON network", "Row_44", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "ConfigTest" ]
+
+        }, {
+
+          "name" : "Verify",
+
+          "uid" : "3d408c022cc38cd5",
+
+          "parentUid" : "ee507acb660fb1d41129f6be404a3df8",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661805651717,
+
+            "stop" : 1661807876903,
+
+            "duration" : 2225186
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "1. Verify SSON Mix config , CDC+Colorless(DirectSMR), CDC+MD-64, Colored(MD-64)+cololress(DirectSMR)\n2. Different Alien interface forcing.", "Row_71", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "ConfigTest" ]
+
+        } ],
+
+        "uid" : "ee507acb660fb1d41129f6be404a3df8"
+
+      } ],
+
+      "uid" : "7144addc3781d3d1aaf44d61ef13b634"
+
+    }, {
+
+      "name" : "Default Value",
+
+      "children" : [ {
+
+        "name" : "genericTestGenerator.GMPOAuto",
+
+        "children" : [ {
+
+          "name" : "Verify",
+
+          "uid" : "34871b3759d04dda",
+
+          "parentUid" : "d44fa1b0cc82ca66be12c523232c7f5e",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661807909912,
+
+            "stop" : 1661808210454,
+
+            "duration" : 300542
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Non SSON>> Verify Default value for different property in Network, Site,Fiber Wave, Services etc.", "Row_2", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "DefaultValue" ]
+
+        } ],
+
+        "uid" : "d44fa1b0cc82ca66be12c523232c7f5e"
+
+      } ],
+
+      "uid" : "d60496aeae917b89e6f3b7703b1e9bb8"
+
+    }, {
+
+      "name" : "Upgrade N Release Upgrade- Excel Import",
+
+      "children" : [ {
+
+        "name" : "genericTestGenerator.GMPOAuto",
+
+        "children" : [ {
+
+          "name" : "Verify",
+
+          "uid" : "e5fdd02c1f50c0dc",
+
+          "parentUid" : "709101a6c5e6990082483638cc25511f",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661808242377,
+
+            "stop" : 1661809026925,
+
+            "duration" : 784548
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Direct SMR Colorless and colored demands are routing via long path when MD-62 is not forced on shot path but forced on the long path", "Row_2", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "Excel_Upgrade_RelUpg" ]
+
+        }, {
+
+          "name" : "Verify",
+
+          "uid" : "1e3ce008abaf1981",
+
+          "parentUid" : "709101a6c5e6990082483638cc25511f",
+
+          "status" : "failed",
+
+          "time" : {
+
+            "start" : 1661809028112,
+
+            "stop" : 1661810615385,
+
+            "duration" : 1587273
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Verify Non SSON Mix config , CDC+Colorless(DirectSMR), CDC+48, Colored(48)+cololress(DirectSMR) in upgrade mode", "Row_18", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "Excel_Upgrade_RelUpg" ]
+
+        } ],
+
+        "uid" : "709101a6c5e6990082483638cc25511f"
+
+      } ],
+
+      "uid" : "6f610d2fca16bb119744d22d6c3cd19f"
+
+    }, {
+
+      "name" : "WhatIf Scenario",
+
+      "children" : [ {
+
+        "name" : "genericTestGenerator.GMPOAuto",
+
+        "children" : [ {
+
+          "name" : "Verify",
+
+          "uid" : "b7300d7d5b779e6",
+
+          "parentUid" : "48be10e3f3b3c16c09e021fd2b5e8ece",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661810646016,
+
+            "stop" : 1661810863104,
+
+            "duration" : 217088
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Verify What if for sson network with fiber failure", "Row_2", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "PlanMode" ]
+
+        }, {
+
+          "name" : "Verify",
+
+          "uid" : "c8efb4daa8484c9a",
+
+          "parentUid" : "48be10e3f3b3c16c09e021fd2b5e8ece",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661810864322,
+
+            "stop" : 1661811117322,
+
+            "duration" : 253000
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Verify What if for non sson network with fiber and node failure", "Row_12", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "PlanMode" ]
+
+        } ],
+
+        "uid" : "48be10e3f3b3c16c09e021fd2b5e8ece"
+
+      } ],
+
+      "uid" : "3053fe0dcb444e5c53b95f63f415c595"
+
+    }, {
+
+      "name" : "Share Network Test",
+
+      "children" : [ {
+
+        "name" : "genericTestGenerator.GMPOAuto",
+
+        "children" : [ {
+
+          "name" : "Verify",
+
+          "uid" : "663d7d7e967919a6",
+
+          "parentUid" : "ab9825169c62e985c5c14213d793470d",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661811148683,
+
+            "stop" : 1661811235976,
+
+            "duration" : 87293
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Verify Share network is working fine.", "Row_2", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "Share" ]
+
+        } ],
+
+        "uid" : "ab9825169c62e985c5c14213d793470d"
+
+      } ],
+
+      "uid" : "6222f5d3649f71bc9e3c5eeb7dcaf8d7"
+
+    }, {
+
+      "name" : "LayoutEdit Test",
+
+      "children" : [ {
+
+        "name" : "genericTestGenerator.GMPOAuto",
+
+        "children" : [ {
+
+          "name" : "Verify",
+
+          "uid" : "f5a93eda7416d56c",
+
+          "parentUid" : "b30005a94f4f655de55f6efd35275f80",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661811268603,
+
+            "stop" : 1661813536439,
+
+            "duration" : 2267836
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "1. Verify 4k& 1k Rack and card addition. \\n\n2. MLC, TTI and Pluggable addition also.", "Row_2", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "LayoutEdit" ]
+
+        } ],
+
+        "uid" : "b30005a94f4f655de55f6efd35275f80"
+
+      } ],
+
+      "uid" : "0fb5a792ea05db28fde9c774ab0b8ea8"
+
+    }, {
+
+      "name" : "1010 Test",
+
+      "children" : [ {
+
+        "name" : "genericTestGenerator.GMPOAuto",
+
+        "children" : [ {
+
+          "name" : "Verify",
+
+          "uid" : "88d28cc781f1d919",
+
+          "parentUid" : "f1ad6b4deb5764fd66773e4fe6307d21",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661813567803,
+
+            "stop" : 1661815391231,
+
+            "duration" : 1823428
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "Import Excel 1010 network, Verify Default Properties, Update Colored and colorless Add/Drops in Site level and Power Supply and MF Unit in Side and Site level, Regen in Circuits, Raman forcing in Fiber, loss in fiber and Verify BOM, TM.", "Row_2", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "1010" ]
+
+        }, {
+
+          "name" : "Verify",
+
+          "uid" : "219fb8d0889a7263",
+
+          "parentUid" : "f1ad6b4deb5764fd66773e4fe6307d21",
+
+          "status" : "passed",
+
+          "time" : {
+
+            "start" : 1661815392351,
+
+            "stop" : 1661816610146,
+
+            "duration" : 1217795
+
+          },
+
+          "flaky" : false,
+
+          "parameters" : [ "UI Created Network with colored and colorless circuits with Cband Forcing", "Row_48", "https://ngGMPO-dev1-lnx.GMPO.com", "ngGMPO-aqa-win10", "sanityNew", "TestCases", "1010" ]
+
+        } ],
+
+        "uid" : "f1ad6b4deb5764fd66773e4fe6307d21"
+
+      } ],
+
+      "uid" : "dd444425c0f54df808fb15983e19b438"
+
+    } ],
+
+    "uid" : "8ea9e21da063b9f316c4451c2ab32af2"
+
+  } ]
+
+}

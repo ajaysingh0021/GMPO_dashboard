@@ -1,0 +1,29 @@
+ODU Group Information
+--------------------------------------------------------------
+LOCAL
+Request State : Lockout for Protection
+Request signal : 0
+Bridge signal : 1
+Bridge Status : 1+1
+REMOTE
+Request State : No Request State
+Request signal : 0
+Bridge signal : 1
+Bridge Status : 1+1
+WORKING
+Controller Name : ODU20_0_0_1_22
+ODU STATE : Active
+Local Failure : State Ok
+Remote Failure : State Ok
+WTR Left : 0 ms
+PROTECT
+Controller Name :
+RESTORE
+Controller Name :
+Client
+Controller Name : ODU20_0_0_8_4
+ODU STATE : Active
+Wait to restore : 300000 ms
+Hold-off-timer : 0 ms
+Current State : Lockout for Protection Request
+Previous State : No Request State
