@@ -1,0 +1,34 @@
+putty.exe -ssh bgl-xdm-`36 -m "c:\path\cmd.txt" -t
+
+
+cd /ws/gmpoemailid-bgl/pyATS/sourceMeFiles
+pwd
+sleep 5
+pwd
+/bin/csh
+sleep 5
+pwd
+
+
+
+
+==================================
+
+
+putty.exe -ssh -2 -l gmpoemailid -pw Password -m c:\remote.cmd bgl-xdm-136
+
+C:\Users\gmpoemailid> putty.exe -ssh -2 -l gmpoemailid -pw Password -m c:\remote.txt bgl-xdm-136
+
+==================================
+
+cd /ws/gmpoemailid-bgl/pyATS/sourceMeFiles
+source sourceMeFirst.csh
+source sourceMeSecond.csh
+sleep 2
+cd /ws/gmpoemailid-bgl/pyATS/pyats
+pwd
+easypy GMPO_automation/jobs/jlt_job.py -testbed_file GMPO_automation/testbed/jlt_testbed_1.yaml
+sleep 2
+
+
+==================================
