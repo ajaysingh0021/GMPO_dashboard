@@ -1,0 +1,32 @@
+<h3>Copy Log Data</h3>
+<hr>copy_command = robocopy \\GMPOtest1-win\RunTestSuite\GMPOautomation\NGGMPODriver\allure-results C:\xampp\htdocs\GMPO\reports\Subu\20220830020052_gmpoadmin1\  /NFL /NP /LOG+:robolog.txt 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Tuesday, August 30, 2022 5:31:06 PM
+   Source : \\GMPOtest1-win\RunTestSuite\GMPOautomation\NGGMPODriver\allure-results\
+     Dest : C:\xampp\htdocs\GMPO\reports\Subu\20220830020052_gmpoadmin1\
+
+    Files : *.*
+	    
+  Options : *.* /NFL /DCOPY:DA /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  New Dir         38	\\GMPOtest1-win\RunTestSuite\GMPOautomation\NGGMPODriver\allure-results\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         1         0         0         0         0
+   Files :        38        38         0         0         0         0
+   Bytes :   1.104 g   1.104 g         0         0         0         0
+   Times :   0:00:08   0:00:08                       0:00:00   0:00:00
+
+
+   Speed :           139758935 Bytes/sec.
+   Speed :            7997.070 MegaBytes/min.
+   Ended : Tuesday, August 30, 2022 5:31:14 PM
+

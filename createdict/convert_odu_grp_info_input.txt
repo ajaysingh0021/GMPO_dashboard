@@ -1,0 +1,113 @@
+show controllers Odu-Group-Te 64547 protection-detail
+
+
+
+Fri Mar 31 04:31:58.212 UTC
+
+
+
+
+
+ODU  Group Information
+
+
+--------------------------------------------------------------
+
+
+LOCAL
+
+
+		Request State			: No Request State
+
+
+		Request signal 			: 0
+
+
+		Bridge signal 			: 1
+
+
+		Bridge Status 			: 1+1
+
+
+REMOTE
+
+
+		Request State			: No Request State
+
+
+		Request signal 			: 0
+
+
+		Bridge signal 			: 1
+
+
+		Bridge Status 			: 1+1
+
+
+WORKING
+
+
+		Controller Name 		: ODU20_1_0_6_92
+
+
+		ODU STATE 			: Active
+
+
+		Local Failure 			: State Ok
+
+
+		Remote Failure 			: State Ok
+
+
+		WTR Left 			: 0 ms
+
+
+
+
+
+PROTECT
+
+
+		Controller Name 		: 
+
+
+
+
+
+RESTORE
+
+
+		Controller Name 		: 
+
+
+
+
+
+Client
+
+
+		Controller Name 		: ODU20_11_0_5
+
+
+		ODU STATE 			: Active
+
+
+
+
+
+
+
+
+Wait to restore 				: 300000 ms
+
+
+Hold-off-timer  				: 0 ms
+
+
+Current State 					: No Request State
+
+
+Previous State 					: Wait to restore
+
+
+RP/0/RP0:R2#
